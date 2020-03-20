@@ -67,7 +67,7 @@ body {
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 35px;
-  animation: moveInLeft 1s ease-in;
+  animation: moveInLeft 1s ease-out;
 }
 
 .heading-primary-sub {
@@ -75,7 +75,7 @@ body {
   font-size: 20px;
   font-weight: 300;
   letter-spacing: 17px;
-  animation: moveInRight 1s ease-in;
+  animation: moveInRight 1s ease-out;
 }
 
 
