@@ -54,6 +54,7 @@ resolves conflicts. But how does this all happen?
 ![CSS Conflict resolution order](./img/CSS%20conflict%20resolution%20order.png)
 
 Specificity Hierarchy:
+
 ![Specificity Hierarchy](./img/Specificity%20Hierarchy.png)
 
 So to summarize everything:
