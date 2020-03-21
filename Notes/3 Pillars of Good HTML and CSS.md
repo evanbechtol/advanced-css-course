@@ -41,7 +41,7 @@ be rendered on the device.
 ### How CSS is Parsed 
 ![CSS Rule Diagram](./img/CSS%20Rule.png)
 
-##### What does "Cascade" actually mean?
+#### What does "Cascade" actually mean?
 It's the process of combining different stylesheets and resolving conflicts between different CSS
 rules and declarations, when more than one rule applies to a certain element.
 
