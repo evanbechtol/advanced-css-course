@@ -57,8 +57,8 @@ Specificity Hierarchy:
 ![Specificity Hierarchy](./img/Specificity%20Hierarchy.png)
 
 So to summarize everything:
-  - CSS declarations marked with !important have the highest priority
-  - You should only use !important as a last resort. Always try to use correct specificity. **This makes your CSS more maintainable**
+  - CSS declarations marked with `!important` have the highest priority
+  - You should only use `!important` as a last resort. Always try to use correct specificity. **This makes your CSS more maintainable**
   - Inline styles will *always* have priority over your styles in external stylesheets
   - ID is more specific than Class, which is more specific than Element selectors.
   - A universal (*) selector has no specificity value. It will *always* be over-written by other selectors
