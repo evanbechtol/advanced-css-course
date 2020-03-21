@@ -1,31 +1,30 @@
 # 3 Pillars of Writing Good HTML and CSS
-
-1. Responsive Design
-2. Maintainable and Scalable
-3. Web Performance
+  1. Responsive Design
+  2. Maintainable and Scalable
+  3. Web Performance
 
 ### Responsive Design
-    - Fluid layouts
-    - Media queries
-    - Responsive images
-    - Correct units
-    - Desktop-first vs. Mobile-first 
+  - Fluid layouts
+  - Media queries
+  - Responsive images
+  - Correct units
+  - Desktop-first vs. Mobile-first 
 
 ### Maintainable and Scalable
-    - Clean
-    - Easy-to-understand
-    - Encourages growth
-    - Reusable
-    - Good file structure and organization
-    - Good naming conventions
-    - Good HTML structure
+  - Clean
+  - Easy-to-understand
+  - Encourages growth
+  - Reusable
+  - Good file structure and organization
+  - Good naming conventions
+  - Good HTML structure
 
 ## Web Performance
-    - Less HTTP requests
-    - Less code
-    - Compress code
-    - Less images
-    - Compress images
+  - Less HTTP requests
+  - Less code
+  - Compress code
+  - Less images
+  - Compress images
 
 ## How CSS works behind the scenes
 After the CSS is loaded, it is parsed. The first step in parsing
@@ -58,11 +57,10 @@ Specificity Hierarchy:
 ![Specificity Hierarchy](./img/Specificity%20Hierarchy.png)
 
 So to summarize everything:
-    
-    - CSS decalartions marked with !important have the highest priority
-    - You should only use !important as a last resort. Always try to use correct specificity. **This makes your CSS more maintainable**
-    - Inline styles will *always* have priority over your satyles in external stylesheets
-    - ID is more specific than Class, which is more specific than Element selectors.
-    - A universal (*) selector has no specificity value. It will *always* be over-written by other selectors
-    - Rely on specificity, not order of selectors.
-    - However, rely on order when using 3rd-party stylesheets. *Always put your author stylesheet last!*
+  - CSS declarations marked with !important have the highest priority
+  - You should only use !important as a last resort. Always try to use correct specificity. **This makes your CSS more maintainable**
+  - Inline styles will *always* have priority over your styles in external stylesheets
+  - ID is more specific than Class, which is more specific than Element selectors.
+  - A universal (*) selector has no specificity value. It will *always* be over-written by other selectors
+  - Rely on specificity, not order of selectors.
+  - However, rely on order when using 3rd-party stylesheets. *Always put your author stylesheet last!*
