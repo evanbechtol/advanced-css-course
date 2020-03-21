@@ -19,7 +19,7 @@
   - Good naming conventions
   - Good HTML structure
 
-## Web Performance
+### Web Performance
   - Less HTTP requests
   - Less code
   - Compress code
