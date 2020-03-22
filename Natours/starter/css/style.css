@@ -15,10 +15,12 @@ Dark green: #28b485
  gives us a clean start
  */
 
-* {
+*,
+*::after,
+*::before {
   margin     : 0;
   padding    : 0;
-  box-sizing : border-box; /* Borders & padding are not added to total height & width */
+  box-sizing : inherit; /* This will enable all elements to inherit box-sizing from body selector */
 }
 
 html {
@@ -32,6 +34,7 @@ body {
   line-height : 1.7;
   color       : #777777;
   padding     : 3rem;
+  box-sizing  : border-box; /* Borders & padding are not added to total height & width */
 }
 
 .header {
