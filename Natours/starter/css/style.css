@@ -22,7 +22,7 @@ Dark green: #28b485
 }
 
 html {
-  font-size : 10px;
+  font-size : 62.5%; /* This enables us to leverage user browser font-size setting */
 }
 
 body {
