@@ -37,6 +37,18 @@ to the DOM. The CSSOM and the DOM are then placed in the render tree.
 Finally, the visual formatting model combines everything for the site to
 be rendered on the device. 
 
+  - Each property has an initial default value, which will be used if nothing is declared
+  - Browsers specify a **root** font-size for each page (usually 16px)
+  - Percentages and relative values are **always** converted to px
+  - Font-size 
+      - percentages are measured relative to their parent's font-size
+      - `em` are measured relative to their *parent's* `font-size`
+  - Length  
+      - percentages are measured relative to their parent's length
+      - `em` are measure relative to the *current* `font-size`
+  - `rem` are always measure relative to the **document's root** `font-size`
+  - `vh` and `vw` are percentage measurements of the viewport's height and width
+
 ### How CSS is Parsed 
 ![CSS Rule Diagram](./img/CSS%20Rule.png)
 
