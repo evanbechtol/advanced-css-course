@@ -1,7 +1,7 @@
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
-
+$color-grey-dark: #777;
 /**
  Cross-browser reset: Makes sure that site looks same
  on all browsers, using the universal selector.
@@ -27,7 +27,7 @@ body {
   font-weight : 400;
   /*font-size   : 16px;*/
   line-height : 1.7;
-  color       : #777777;
+  color       : $color-grey-dark;
   padding     : 3rem;
   box-sizing  : border-box; /* Borders & padding are not added to total height & width */
 }
@@ -152,7 +152,7 @@ body {
 }
 
 .btn--white {
-  color            : #777;
+  color            : $color-grey-dark;
   background-color : #fff;
 }
 
