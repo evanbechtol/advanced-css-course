@@ -1,0 +1,22 @@
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+  backface-visibility: hidden; /* Prevents behind of element from being shown. Fixes shaking during animation */
+
+  &--main {
+    display: block; /* Element will use all available width */
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+    animation: moveInLeft 1s ease-out;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1.7rem;
+    animation: moveInRight 1s ease-out;
+    margin-bottom: 6rem;
+  }
+}
