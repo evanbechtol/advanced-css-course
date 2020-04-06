@@ -8,35 +8,6 @@
 @import "base/utilities";
 
 @import "pages/home";
-/**
- Cross-browser reset: Makes sure that site looks same
- on all browsers, using the universal selector.
-
- By default, browsers apply some default margin/padding. This
- gives us a clean start
- */
-
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit; /* This will enable all elements to inherit box-sizing from body selector */
-}
-
-html {
-  font-size: 62.5%; /* This enables us to leverage user browser font-size setting */
-}
-
-body {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  /*font-size   : 16px;*/
-  line-height: 1.7;
-  color: $color-grey-dark;
-  padding: 3rem;
-  box-sizing: border-box; /* Borders & padding are not added to total height & width */
-}
 
 .header {
   height: 95vh;
